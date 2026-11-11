@@ -19,3 +19,5 @@ int main(){
     }
 
     std::cout << "The number is prime.";
+  return 0;
+}
