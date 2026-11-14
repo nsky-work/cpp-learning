@@ -32,8 +32,7 @@ int main(){
     }
 
     for(int i = 0; i < N - 1; i += 2){
-        if((arr[i] == min_element && arr[i + 1] != min_element) ||
-           (arr[i] != min_element && arr[i + 1] == min_element)){
+        if((arr[i] == min_element && arr[i + 1] != min_element) || (arr[i] != min_element && arr[i + 1] == min_element)){
             licznik++;
             std::cout << "Pair " << licznik << ": " << arr[i] << ", " << arr[i + 1] << '\n';
         }
